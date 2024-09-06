@@ -46,7 +46,7 @@
 
 
 .button {
-    width:15rem;
+    width:auto;
     height:7rem;
     font-size:4rem;
     margin-bottom:2rem;
@@ -58,7 +58,7 @@
 
 .author-btn {
     font-size:3rem;
-    width:20rem;
+    width:auto;
     margin-bottom:1.5rem;
 }
 

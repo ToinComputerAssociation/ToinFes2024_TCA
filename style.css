@@ -46,10 +46,10 @@
 
 
 .button {
-    width:auto;
-    height:7rem;
-    font-size:4rem;
+    width:30%;
+    font-size:3rem;
     margin-bottom:2rem;
+    margin-top:2rem;
     border-radius:25px;
     background-color:black;
     color:#97f4fe;
@@ -59,7 +59,35 @@
 .author-btn {
     font-size:3rem;
     width:auto;
+    margin-left: 1rem;
     margin-bottom:1.5rem;
+    transition-duration: .4s;
+}
+
+.screenshot {
+    aspect-ratio: 56.25%;
+    position:relative;
+    top:10px;
+    left:1%;
+    right:1%;
+}
+
+.description {
+    position:absolute;
+    transition-duration: .4s;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.author-btn:hover {
+    width:90%;
+}
+
+.description:hover {
+    color:#97f4fe;
+    left: 33%;
+    top: 2rem;
+    width: 66%;
 }
 
 .link-icon-wrapper{

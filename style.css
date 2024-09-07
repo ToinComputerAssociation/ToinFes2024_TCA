@@ -7,7 +7,6 @@
     min-height:100vh;
     background-color: black;
     display: grid;
-    place-items:center;
 }
 
 .grid-home{
@@ -35,7 +34,6 @@
     text-decoration:none;
     color:#97f4fe;
     display:grid;
-    place-items:center;
 }
 
 .sub{
@@ -46,7 +44,7 @@
 
 
 .button {
-    width:30%;
+    width:90%;
     font-size:3rem;
     margin-bottom:2rem;
     margin-top:2rem;
@@ -58,36 +56,25 @@
 
 .author-btn {
     font-size:3rem;
-    width:auto;
     margin-left: 1rem;
     margin-bottom:1.5rem;
     transition-duration: .4s;
 }
 
 .screenshot {
-    aspect-ratio: 56.25%;
+    width: 33%;
     position:relative;
     top:10px;
-    left:1%;
-    right:1%;
+    left:10px;
+    right:10px;
 }
 
 .description {
     position:absolute;
     transition-duration: .4s;
-    color: black;
     font-size: 1.5rem;
-}
-
-.author-btn:hover {
-    width:90%;
-}
-
-.description:hover {
-    color:#97f4fe;
-    left: 33%;
-    top: 2rem;
     width: 66%;
+    left: 34%;
 }
 
 .link-icon-wrapper{

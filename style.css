@@ -44,7 +44,8 @@
 
 
 .button {
-    width:90%;
+    width:auto;
+    text-align:center;
     font-size:3rem;
     margin-bottom:2rem;
     margin-top:2rem;
@@ -55,9 +56,12 @@
 }
 
 .author-btn {
+    width:90%;
+    text-align:left;
     font-size:3rem;
     margin-left: 1rem;
     margin-bottom:1.5rem;
+    padding-left:1rem;
     transition-duration: .4s;
 }
 
@@ -75,6 +79,7 @@
     font-size: 1.5rem;
     width: 66%;
     left: 34%;
+    margin-top: 3em;
 }
 
 .link-icon-wrapper{
@@ -99,6 +104,7 @@
 .title {
     color:white;
     text-align:center;
+    margin-top: 6rem;
 }
 
 .game-container{

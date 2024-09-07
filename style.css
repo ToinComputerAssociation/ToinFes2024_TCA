@@ -7,7 +7,6 @@
     min-height:100vh;
     background-color: black;
     display: grid;
-    place-items:center;
 }
 
 .grid-home{
@@ -16,7 +15,6 @@
 }
 
 .grid-games {
-    grid-template-rows:1fr 3fr;
     grid-template-columns:100%;
 }
 
@@ -35,7 +33,6 @@
     text-decoration:none;
     color:#97f4fe;
     display:grid;
-    place-items:center;
 }
 
 .sub{
@@ -46,10 +43,14 @@
 
 
 .button {
-    width:auto;
-    height:7rem;
-    font-size:4rem;
+    width:max-content;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align:center;
+    font-size:3rem;
     margin-bottom:2rem;
+    margin-top:2rem;
     border-radius:25px;
     background-color:black;
     color:#97f4fe;
@@ -57,9 +58,37 @@
 }
 
 .author-btn {
+    width:90%;
+    text-align:left;
     font-size:3rem;
-    width:auto;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+    margin-left:auto;
+    margin-right:auto;
     margin-bottom:1.5rem;
+    transition-duration: .4s;
+}
+
+.author-btn:hover {
+    color:#feb897;
+    box-shadow: none;
+}
+
+.screenshot {
+    width: 33%;
+    position:relative;
+    top:10px;
+    left:10px;
+    right:10px;
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    position:absolute;
+    font-size: 1.5rem;
+    width: auto;
+    left: 37%;
+    margin-top: 3em;
 }
 
 .link-icon-wrapper{
@@ -84,6 +113,8 @@
 .title {
     color:white;
     text-align:center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .game-container{

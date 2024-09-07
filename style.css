@@ -70,6 +70,11 @@
     transition-duration: .4s;
 }
 
+.author-btn:hover {
+    color:#feb897;
+    box-shadow: none;
+}
+
 .screenshot {
     width: 33%;
     position:relative;

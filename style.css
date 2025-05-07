@@ -34,6 +34,12 @@
 .container a{
     text-decoration:none;
     color:#97f4fe;
+    transition-duration: .4s;
+}
+
+.container a:hover {
+    color:#feb897;
+    box-shadow: none;
 }
 
 .sub{
@@ -72,11 +78,6 @@
 
 .gametitle {
     position: absolute;
-}
-
-.author-btn:hover {
-    color:#feb897;
-    box-shadow: none;
 }
 
 .screenshot {
